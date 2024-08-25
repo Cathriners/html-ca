@@ -5,78 +5,77 @@
 @import url("./_variables.css");
 /* Feel free to add as many of these imports as you need */
 
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
-  
-
 }
 
-.main{
+.main {
   max-width: var(--max-width);
 }
 
-.body{
-  background-color: #ffffff; 
+.body {
+  background-color: #ffffff;
   margin: 20px;
+}
 
-} 
-
-.navbar{
-  background: #17414D;
+.navbar {
+  background: #17414d;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  
-
 }
 
-.navdiv{
-  display: flex; align-items: center; justify-content: space-between;
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-
-li{
-  list-style: none; display: inline-block;
+li {
+  list-style: none;
+  display: inline-block;
 }
 
-li a{
-  color: #ffffff; font-size: 18px; font-weight:normal margin-right 25px; padding: 30px;
-
+li a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: normal margin-right 25px;
+  padding: 30px;
 }
 
-h1{
-  color: #17414D;
+h1 {
+  color: #17414d;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 30px;
-
 }
 
 #logo {
   width: 10%;
   height: 10%;
-
 }
 
-h2{
-  color: #17414D;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+h2 {
+  color: #17414d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  
+  margin-bottom: 10px;
 }
 
-h3{
-  color: #17414D;
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
+h3 {
+  color: #17414d;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 10px;
+  margin-bottom: 10px;
 }
 
 p {
-  color: #17414D;
+  color: #17414d;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
 }
 
-#couple{
+#couple {
   float: center;
   flex: auto;
   align-items: center;
@@ -84,40 +83,43 @@ p {
   margin-bottom: 50px;
 }
 
-
-#header{
+#header {
   font-size: 50px;
   font-weight: bold;
   width: none;
   height: none;
   text-align: center;
   margin-bottom: 30px;
-
 }
 
-#intro{
+#intro {
   width: none;
   height: none;
   font-size: 22px;
   text-align: center;
   margin-bottom: 30px;
-
 }
 
-.footer-container1{
-  background-color: #17414D;
+.footer-container1 {
+  background-color: #17414d;
   padding-bottom: 4rem 0 4rem 0;
-
 }
 
-#footer p{
-  font-size: 15px;
-  background-color: #ffffff;
-  
+#footer-text {
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
 }
 
-button{
-  background-color: #17414D;
+#logo2 {
+  align-items: center;
+  width: 10%;
+  height: 10%;
+}
+
+button {
+  background-color: #17414d;
   border: none;
   color: #ffffff;
   padding: 15px 32px;
@@ -125,13 +127,10 @@ button{
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 10px;
-
-
-  
 }
 
-button:hover{
-  background-color: #4D8292;
+button:hover {
+  background-color: #4d8292;
   border: none;
   color: #ffffff;
   padding: 15px 32px;
@@ -139,11 +138,14 @@ button:hover{
   font-size: 16px;
   margin: 4px 2px;
   border-radius: 10px;
-
 }
 
+#our-collection {
+  text-align: center;
+}
 
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -153,9 +155,9 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=submit] {
+input[type="submit"] {
   width: 100%;
-  background-color: #17414D;
+  background-color: #17414d;
   color: #ffffff;
   padding: 14px 20px;
   margin: 8px 0;
@@ -165,97 +167,14 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #4D8292;
+input[type="submit"]:hover {
+  background-color: #4d8292;
 }
 
 #firm {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
-
-}
-
-
-.footer-container {
-  background-color: #17414D;
-  padding-bottom: 4rem 0 4rem 0;
-}
-
-.footer {
-  width: 80%;
-  height: 40vh;
-  background-color: #17414D;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin: 0 auto;
-}
-
-
-
-.footer-heading {
-  display: flex;
-  flex-direction:  column;
-  margin-right: 4rem;
-
-}
-
-.footer-heading h2 {
-  margin-bottom: 2rem;
-  font-family: Verdana, Geneva, Tahoma, sans-serif
-  font-weight bold;
-  
-}
-
-.footer-heading a {
-color: #ffffff;
-font-family: Verdana, Geneva, Tahoma, sans-serif
-padding 20px;
-text-decoration: none;
-margin-bottom: 0,5rem;
-}
-
-.footer-heading a:hover {
-  color: #4D8292;
-  transition: 0,3s ease-out;
-}
-
-footer-email-form h2 {
-  margin-bottom: 2rem;
-}
-
-#footer-email {
-  width: 250px;
-  height: 40px;
-  border-radius: 4px;
-  outline: none;
-  border: none;
-  padding-left: 0,5rem;
-  font-size: 1rem;
-  margin-bottom: 1rem;
-}
-
-#footer-email::placeholder {
-  color: grey;
-}
-
-#footer-email-btn {
-  width: 100px;
-  height: 40px;
-  border-radius: 4px;
-  background-color: #902d2d;
-  outline: none;
-  border: none;
-  color: #ffffff;
-  font-size: 1rem;
-}
-
-#footer-email-btn:hover {
-  cursor: pointer;
-  background-color: blue;
-  transition: all 0.4s ease-out;
 }
 
 img {
