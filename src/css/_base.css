@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+main {
+  margin: 0 auto;
+  max-width: var(--max-width);
+}

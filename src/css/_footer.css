@@ -1,0 +1,46 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-footer {
+  background-color: #17414d;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: auto;
+  grid-row: 3;
+  max-width: 100%;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  flex: 1;
+}
+
+#logo2 {
+  width: 15%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.footer-text {
+  margin: 5px 0;
+  color: white;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.social-icons i {
+  font-size: 24px;
+  color: white;
+}

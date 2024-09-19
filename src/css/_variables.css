@@ -3,5 +3,10 @@
 
 :root {
   --color-primary: #fff;
-  --color-secondary: #1f1f1f;
+  --color-secondary: #17414d;
+  --accent-color: #4d8292;
+  --text-color: black;
+  --max-width: 1100px;
+  --heading-font: Verdana, Geneva, Tahoma, sans-serif;
+  --body-font: Verdana, Geneva, Tahoma, sans-serif;
 }

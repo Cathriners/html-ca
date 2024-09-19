@@ -1,0 +1,28 @@
+#form {
+  background-color: #ededed;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0, 1);
+  padding: 20px;
+  max-width: 400px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input [type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 11px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input [type="text"]:focus {
+  border-color: #007bff;
+  outline: none;
+}

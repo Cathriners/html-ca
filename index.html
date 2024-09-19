@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Rainy Days - a website selling jackets for all kinds of weather "
+      content="Welcome to Rainy Days - a website selling jackets for all kinds of weather.  "
     />
     <title>Rainy Days - Pushing The Comfort Zone</title>
     <link rel="stylesheet" href="src/css/styles.css" />
@@ -16,50 +16,60 @@
   </head>
 
   <body>
-    <nav class="navbar">
-      <div class="navdiv">
-        <img
-          id="logo"
-          src="assets/images/rainydayslogo_2.png"
-          alt="RainyDays_Logo"
-        />
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="/html/jackets.html">Jackets</a></li>
-          <li><a href="/html/about.html">About</a></li>
-          <li><a href="/html/contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header>
+      <nav class="navbar">
+        <div class="navdiv">
+          <a href="/">
+            <img
+              id="logo"
+              src="assets/images/rainydayslogo_2.png"
+              alt="RainyDays Logo"
+            />
+          </a>
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="/html/jackets.html">Jackets</a></li>
+            <li><a href="/html/about.html">About</a></li>
+            <li><a href="/html/contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
     <main>
-      <h1 id="header">Ready for your next adventure?</h1>
-      <p id="intro">
-        Introducing our latest collection of premium rain jackets, designed to
-        keep you dry and stylish no matter the weather!
-      </p>
-      <img
-        id="couple"
-        src="assets/images/forsidebilde_2.png"
-        alt="Man_and_women_on_snowy_mountain"
-      />
-      <button type="button">View Collection</button>
+      <section>
+        <h1 id="header">Ready for your next adventure?</h1>
+        <p id="intro">
+          Introducing our latest collection of premium rain jackets, designed to
+          keep you dry and stylish no matter the weather!
+        </p>
+        <img
+          id="couple"
+          src="assets/images/forsidebilde_2.png"
+          alt="Man and women on snowy mountain"
+        />
+        <button type="button">View Collection</button>
+      </section>
     </main>
 
-    <footer>
-      <div class="footer-container1">
-        <img
-          id="logo2"
-          src="assets/images/rainydayslogo_2.png"
-          alt="RainyDays_Logo"
-        />
-        <p id="footer-text">Rainy Days Company &copy;</p>
-        <p id="footer-text">London, England</p>
-        <p id="footer-text">All rights reserved, Rainy Days 2024</p>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-youtube"></i>
-      </div>
-    </footer>
+    <div class="wrapper">
+      <footer class="page-footer">
+        <a href="/">
+          <img
+            id="logo2"
+            src="assets/images/rainydayslogo_2.png"
+            alt="RainyDays Logo"
+          />
+        </a>
+        <p class="footer-text">Rainy Days Company &copy;</p>
+        <p class="footer-text">London, England</p>
+        <p class="footer-text">All rights reserved, Rainy Days 2024</p>
+        <div class="social-icons">
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-youtube"></i>
+        </div>
+      </footer>
+    </div>
   </body>
 </html>
