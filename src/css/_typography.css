@@ -1,5 +1,6 @@
 h1 {
-  color: var(--color-secondary) font-family var(--heading-font);
+  color: var(--color-secondary);
+  font-family: var(--heading-font);
   margin-top: 30px;
 }
 

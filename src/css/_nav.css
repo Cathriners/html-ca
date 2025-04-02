@@ -16,6 +16,7 @@
 
 nav ul {
   display: flex;
+  gap: 16px;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -23,7 +24,6 @@ nav ul {
 
 nav ul li {
   font-size: 18px;
-  margin-right: 30px;
   font-family: var(--body-font);
 }
 nav ul li:first-child {
@@ -42,4 +42,28 @@ nav ul li a.active {
 nav ul li a:hover {
   text-decoration: underline;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+svg {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+header .icon-cart {
+  position: relative;
+}
+
+header .icon-cart span {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: -10px;
 }
